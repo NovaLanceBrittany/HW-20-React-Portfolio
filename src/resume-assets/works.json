@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Employee Tracker",
+    "description": "This is a simple employee tool used to track and take the average of the salaries.",
+    "mockup-img": "/works-images/employee-tracker.png",
+    "deployment": "https://novalancebrittany.github.io/Employee-Tracker/",
+    "repository": "https://github.com/NovaLanceBrittany/Employee-Tracker"
+  },
+
+  {
+    "title": "Taskboard Tracker",
+    "description": "A Kanban style task tracker that allows for teams to manage project tasks.",
+    "mockup-img": "/works-images/taskboard.png",
+    "deployment": "https://novalancebrittany.github.io/Taskboard-Tracker/",
+    "repository": "https://github.com/NovaLanceBrittany/Taskboard-Tracker"
+  },
+
+  {
+    "title": "Note Taker",
+    "description": "A note taker that allows for offline sync. Take notes while you are on the go whether you are connected to the web or not - your notes will be saved.",
+    "mockup-img": "/works-images/note-taker.png",
+    "deployment": "https://hw-11-note-taker.onrender.com/notes",
+    "repository": "https://github.com/NovaLanceBrittany/Note-Taker"
+  },
+
+  {
+    "title": "Blog Start-Up",
+    "description": "I started a blog page that allows for a free space to write down what comes to mind included with a darkmode/lightmode switch. This is in a olympic theme.",
+    "mockup-img": "/works-images/blog-start-up.png",
+    "deployment": "https://novalancebrittany.github.io/Blog-Start-Up/",
+    "repository": "https://github.com/NovaLanceBrittany/Blog-Start-Up"
+  },
+
+  {
+    "title": "Brew Bound",
+    "description": "This is a web application that helps connect Breweries and People find eachother.",
+    "mockup-img": "/works-images/brew-bound.png",
+    "deployment": "https://tywalter.github.io/brew-bound/",
+    "repository": "https://github.com/TyWalter/brew-bound"
+  },
+
+  {
+    "title": "Passpour",
+    "description": "This is a web applicaiton that acts like a personal tracker and journal for your personal whiskey tastes.",
+    "mockup-img": "/works-images/passpour.png",
+    "deployment": "https://passpour-1.onrender.com",
+    "repository": "https://github.com/Kylebutcher/passpour"
+  }
+]
