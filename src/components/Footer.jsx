@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react" 
 import { Link } from "react-router-dom"
 
-
+//CSS
 const styles = {
   header: {
     backgroundColor: "#193589",
@@ -23,15 +23,14 @@ export default function Footer() {
     
     <h1 style={styles.h1}></h1>
 
-        // Social Media Links
+        {/* Social Media Links */}
         <ul style={styles.ul}>
           <li className="d-flex">
-            <a href="/auth" className="d-block px-2 text-light text-decoration-none">Signup</a>
-            <a href="/auth" className="d-block px-2 text-light text-decoration-none">Sign In</a>
-            <a href="/auth" className="d-block px-2 text-light text-decoration-none">Sign Out</a>
+            <a href="https://www.linkedin.com/in/brittany-jungclaus-14933b101/" target="_blank">LinkedIn</a>
+            <a href="https://x.com/NovaLanceBritt" target="_blank">Twitter</a>
+            <a href="https://github.com/NovaLanceBrittany" target="_blank">GitHub</a>
           </li>
         </ul>
-
     </footer>
   )
 }

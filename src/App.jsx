@@ -8,7 +8,7 @@ import AboutMe from "./components/pages/AboutMe"
 import Contact from "./components/pages/Contact"
 import Portfolio from "./components/pages/Portfolio"
 import Resume from "./components/pages/Resume"
-import Works from "./components/pages/Works"
+
 
 
 // Importing the Components
@@ -29,7 +29,6 @@ function App() {
             <Route path='/contact' element={<Contact />} />
             <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/resume' element={<Resume />} />
-            <Route path='/works' element={<Works />} />
           </Routes>
         <Footer />
       </BrowserRouter>
