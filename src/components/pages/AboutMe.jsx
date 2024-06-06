@@ -2,19 +2,19 @@
 
 
 // CSS
-const styles = {
-  header: {
-    backgroundColor: "#193589",
-    borderBottom: "1px solid white",
-    height: "6rem",
-    marginBottom: "10px",
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: "0 3rem",
-    color: "white"
-  },
-}
+// const styles = {
+//   header: {
+//     backgroundColor: "#193589",
+//     borderBottom: "1px solid white",
+//     height: "6rem",
+//     marginBottom: "10px",
+//     display: "flex",
+//     justifyContent: "space-between",
+//     alignItems: "center",
+//     padding: "0 3rem",
+//     color: "white"
+//   },
+// }
 
 
 // About Me Page

@@ -1,40 +1,35 @@
 // imports
 import { useState, useEffect } from "react" // originally planned for more cool stuff
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 
 // CSS
 const styles = {
-  ul: {
-    h1: "",
-    backgroundColor: "#4b244a",
-    borderBottom: "1px solid white",
-    height: "6rem",
-    marginBottom: "10px",
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: "0 3rem",
-    color: "white"
-    
-
+  nav: {
+    justifyContent: 'space-around',
+    display: 'flex',
+    width: '50%',
+    paddingTop: '30px'
   },
 }
 
 
-// The Component
+// The Nav Component
 export default function Nav() {
   return (
-    <nav>
-      <ul style={styles.ul}>
-        <li className="navbar">
-          <Link to="/">AboutMe</Link>
-          <Link to="/">Contact</Link>
-          <Link to="/">Portfolio</Link>
-          <Link to="/">Resume</Link>
-          <Link to="/">Works</Link>
-        </li>
-      </ul>
+    <nav style={styles.nav}>
+      <NavLink to="/" style={({ isActive }) => {
+        return isActive ? { textDecoration: 'none' } : {};
+          }}>AboutMe</NavLink>
+      <NavLink to="/contact" style={({ isActive }) => {
+        return isActive ? { textDecoration: 'none' } : {};
+          }}>Contact</NavLink>
+      <NavLink to="/portfolio" style={({ isActive }) => {
+        return isActive ? { textDecoration: 'none' } : {};
+          }}>Portfolio</NavLink>
+      <NavLink to="/resume" style={({ isActive }) => {
+        return isActive ? { textDecoration: 'none' } : {};
+          }}>Resume</NavLink>
     </nav>
   )
 }

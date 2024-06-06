@@ -7,27 +7,34 @@ import Nav from './Nav'
 // CSS
 const styles = {
   header: {
-    // h1: "",
-    // backgroundColor: "#4b244a",
-    // borderBottom: "1px solid white",
-    // height: "6rem",
-    // marginBottom: "10px",
-    // display: "flex",
-    // justifyContent: "space-between",
-    // alignItems: "center",
-    // padding: "0 3rem",
-    // color: "white"
-    
-
+    // The container
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    width: '100%',
+    height: '6rem',
+    backgroundColor: "var(--VioletJTC)",
+    borderBottom: "1px solid var(--PowderBlue)",
+    paddingTop: "30px",
+    paddingLeft: "50px",
   },
+  
+  // My Name
+  fname: {
+    color: "white"
+  },
+  lname: {
+    color: "var(--PowderBlue)"
+  } 
 }
 
 
-// Componenet
+// Header Componenet
 export default function Header() {
   return (
     <header style={styles.header}>
-      <h1>Brittany Jungclaus</h1>
+      <h1 style={styles.fname}>Brittany</h1>
+      <h1 style={styles.lname}>Jungclaus</h1>
 
       {/* This is the Nav Bar Component */}
       <Nav />
