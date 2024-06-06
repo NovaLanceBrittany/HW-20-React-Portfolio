@@ -21,13 +21,15 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
-          <Routes>
-            {/* About me & Home Page are one and the same */}
-            <Route path='/' element={<AboutMe />} />
-            <Route path='/contact' element={<Contact />} />
-            <Route path='/portfolio' element={<Portfolio />} />
-            <Route path='/resume' element={<Resume />} />
-          </Routes>
+          <div className="viewport">
+            <Routes>
+              {/* About me & Home Page are one and the same */}
+              <Route path='/' element={<AboutMe />} />
+              <Route path='/contact' element={<Contact />} />
+              <Route path='/portfolio' element={<Portfolio />} />
+              <Route path='/resume' element={<Resume />} />
+            </Routes>
+          </div>
         <Footer />
       </BrowserRouter>
     </>
