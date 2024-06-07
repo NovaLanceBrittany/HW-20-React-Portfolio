@@ -30,24 +30,33 @@ Leveraging the power of React, an open-source JavaScript library renowned for it
 
 ## Technology Stacks:
 - React
-
+- Bootstrap
 
 #### npm Packages:
 - Express.js
 
 
 ## Installation:
+- Step 1: While in the Root File, open your terminal and type the command: npm run dev
 
 ## Challenges:
+- I ran into a lot of frusteration when it came to the styling for react. There are some components that I need to work on in the Portfolio.
+
+- React is super cool with its hot-reloading, however if ther is even a single spelling error or inconsitancy the whole site will stop working. It made me really became more dedicated for better consistancy accross my code. 
 
 ## Mock-Up:
 
-The following animation shows the web application's appearance and functionality:
+The following screenshot shows the web application's appearance and functionality:
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+Home Page / About Me Page: ![Home Page / About Me Page](./public/assets/homepage.png)
 
 
 ## Vers. 2.0:
+- I would like to impliment some animations, I have done some research for other portfolios and goodness the potenial is amazing!
+
+- I may have 2 forms, one for contacting for freelance work and the other for content creation contracts
+
+- I will be adding more projects in the future as I create them! Maybe a 'preview' for my work would be more beneficial vs an actaul visit to the site - like a portal to it instead of a new window.
 
 
 
@@ -55,5 +64,5 @@ The following animation shows the web application's appearance and functionality
 
 The Repository: [Click Here.](https://github.com/NovaLanceBrittany/HW-20-React-Portfolio)
 
-The Netlify: [Click Here.](com)
+The Netlify: [Click Here.](https://brittanyjunclausportfolio.netlify.app)
 
