@@ -3,31 +3,56 @@ import resumeV1 from './../../assets/brittany-jungclaus-resume-2024.pdf'
 
 // CSS
 const styles = {
-  header: {
-    backgroundColor: "#193589",
+  container: {
+    backgroundColor: "var(--SlateBlue)",
     borderBottom: "1px solid white",
-    height: "6rem",
-    marginBottom: "10px",
+    height: "9rem",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
     padding: "0 3rem",
     color: "white"
   },
+
+  resumeTitle: {
+    backgroundColor: "var(--SlateBlue)",
+    borderBottom: "1px solid white",
+    height: "3rem",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: "0 3rem",
+    color: "white",
+    textAlign: "center"
+  },
+
+  resumeButton: {
+    backgroundColor: "var(--PowderBlue)",
+    borderBottom: "1px solid white",
+    height: "3rem",
+    display: "block",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: "0 3rem",
+    color: "white",
+    margin: "center"
+  },
 }
 
 
+// The Resume Downlaod Page
 export default function Resume() {
   return (
-    <section className='resume'>
+    <section style={styles.section}>
 
-      <h2 className='resume-title'>Resume Download</h2>
+      <h2 style={styles.resumeTitle}>Resume Download</h2>
       <a href={resumeV1} target='_blank' download="Brittany Jungclaus">
-        <button className='resumeButton'>Download Resume</button>
+        <button style={styles.resumeButton}>Download Resume</button>
       </a>
-
       <br />
-      <div>
+
+      
+      <div style={styles.container}>
         <h3>Languages</h3>
           <ul>
             <li>JavaScript</li>
@@ -35,7 +60,7 @@ export default function Resume() {
       </div>
 
       <br />
-      <div>
+      <div style={styles.container}>
         <h3>Client End Profeciencies</h3>
           <ul>
             <li>HTML</li>
@@ -48,7 +73,7 @@ export default function Resume() {
       </div>
 
       <br />
-      <div>
+      <div style={styles.container}>
         <h3>Server End Profeciencies</h3>
           <ul>
             <li>APIs</li>
